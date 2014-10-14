@@ -13,4 +13,13 @@ To create set of data properly use the **Test Data Builders** pattern. In ruby u
 
 * Working Effectively with Legacy Code \[Fea04\]
 * [Hexagonal Architecture or Ports and Adapaters](http://alistair.cockburn.us/Hexagonal+architecture)
+* Toyota Production System - Beyond Large Scale Production \[Ohn88\]
+
+Chapter 7. Step Definitions: On the Inside
+--
+
+Cucumber can be "reached" in step definitions through the RbWorld API, see [World API](http://cukes.info/cucumber/api/ruby/latest/Cucumber/RbSupport/RbWorld.html)  
+Calling `p self` will list all the modules that are mixed into the world.
+A World is created for each scenario and **destroy at the end of each scenario**.
+
 
