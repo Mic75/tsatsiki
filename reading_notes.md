@@ -20,6 +20,8 @@ Chapter 7. Step Definitions: On the Inside
 
 Cucumber can be "reached" in step definitions through the RbWorld API, see [World API](http://cukes.info/cucumber/api/ruby/latest/Cucumber/RbSupport/RbWorld.html)  
 Calling `p self` will list all the modules that are mixed into the world.
-A World is created for each scenario and **destroy at the end of each scenario**.
+A World is created for each scenario and **destroy at the end of each scenario**.  
+
+--dry-run launch feature and step defintions **without loading env.rb** : usefull to test refactoring
 
 
